@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(169, 84, 84);
+    font-family: sans-serif;
+}
+.container {
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-left: 39%;
+    margin-top: 115px;
+    border-radius: 15px;
+}
+.container input {
+    width: 270px;
+    padding: 10px;
+    border: 2px solid rgb(169, 84, 84);
+    outline: none;
+    border-radius: 7px;
+    font-size: 19px;
+}
+button{
+    width: 60px;
+    height: 45px; 
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 15px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color:rgb(169, 84, 84);
+    color: whitesmoke;
+}
+.text ul {
+    position: relative;
+    background-color: rgb(169, 84, 84);
+    color: whitesmoke;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+}
+.text ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
